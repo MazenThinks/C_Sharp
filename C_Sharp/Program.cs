@@ -93,13 +93,21 @@
             o2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
+            //Output ( All Operators )
             Console.WriteLine("The Addition (+) of these two numbers is : " + (o1 + o2));  // Addition
             Console.WriteLine("The Substraction (-) of these two numbers is : " + (o1 - o2));  // Substraction
             Console.WriteLine("The Multiplication (*) of these two numbers is : " + (o1 * o2));  // Multiplication
             Console.WriteLine("The Division(/) of these two numbers is : " + (o1 / o2));  // Division
             Console.WriteLine("The Modulus of(%) these two numbers is : " + (o1 % o2));  // Modulus
-
+            
+            
+            // HINT (Comparison Operators)
+            // ( == ) Equal to x == y
+            // ( != ) Not Equal x != y
         }
+
+
+
 
 
 
