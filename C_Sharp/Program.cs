@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            Priting();
+        
         }
+
+        static void Priting()
+        {
+            // Anything + line = *Pressing enter*
+            Console.Write("Yoo, Mr.White .. ");
+            Console.WriteLine("Yoo, Mr.Blue");
+            Console.Write("Yoo, Mr.Green");
+        }
+
+
+
     }
 }

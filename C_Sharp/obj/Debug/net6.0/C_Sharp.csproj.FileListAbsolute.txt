@@ -1,0 +1,15 @@
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\bin\Debug\net6.0\C_Sharp.exe
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\bin\Debug\net6.0\C_Sharp.deps.json
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\bin\Debug\net6.0\C_Sharp.runtimeconfig.json
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\bin\Debug\net6.0\C_Sharp.dll
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\bin\Debug\net6.0\C_Sharp.pdb
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.csproj.AssemblyReference.cache
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.AssemblyInfoInputs.cache
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.AssemblyInfo.cs
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.dll
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\refint\C_Sharp.dll
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.pdb
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\C_Sharp.genruntimeconfig.cache
+C:\Users\Mazen\OneDrive\Documents\GitHub\C_Sharp\C_Sharp\obj\Debug\net6.0\ref\C_Sharp.dll

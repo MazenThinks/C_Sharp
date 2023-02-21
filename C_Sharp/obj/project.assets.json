@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mazen\\OneDrive\\Desktop\\C#\\C_Sharp\\C_Sharp\\C_Sharp.csproj",
+      "projectUniqueName": "C:\\Users\\Mazen\\OneDrive\\Documents\\GitHub\\C_Sharp\\C_Sharp\\C_Sharp.csproj",
       "projectName": "C_Sharp",
-      "projectPath": "C:\\Users\\Mazen\\OneDrive\\Desktop\\C#\\C_Sharp\\C_Sharp\\C_Sharp.csproj",
+      "projectPath": "C:\\Users\\Mazen\\OneDrive\\Documents\\GitHub\\C_Sharp\\C_Sharp\\C_Sharp.csproj",
       "packagesPath": "C:\\Users\\Mazen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mazen\\OneDrive\\Desktop\\C#\\C_Sharp\\C_Sharp\\obj\\",
+      "outputPath": "C:\\Users\\Mazen\\OneDrive\\Documents\\GitHub\\C_Sharp\\C_Sharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mazen\\AppData\\Roaming\\NuGet\\NuGet.Config",
