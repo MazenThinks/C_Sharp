@@ -7,7 +7,8 @@
 
             // Priting();
             // comments(); nothing will appear
-            DataTypesAndVars();
+            // DataTypesAndVars();
+            TypeCasting();
         }
 
         static void Priting()
@@ -39,7 +40,25 @@
             Console.WriteLine(inte + dbl + cnst);
         }
 
-        
+        static void TypeCasting()
+        {
+            // Implicit Casting
+            int myInt = 5;
+            double myDouble;
+            myDouble= myInt;
+            Console.WriteLine(myInt);
+            Console.WriteLine(myDouble);
+
+            // Explicit Casting
+            double mydbl = 5.5;
+            int myint = (int)myDouble;
+
+            Console.WriteLine(myint); // converting double to int
+
+            Console.WriteLine(Convert.ToInt32(myDouble)); // converting double to int in another way
+        }
+
+
 
 
 
