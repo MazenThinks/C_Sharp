@@ -8,7 +8,8 @@
             // Priting();
             // comments(); nothing will appear
             // DataTypesAndVars();
-            TypeCasting();
+            // TypeCasting();
+            InputsFromUser();
         }
 
         static void Priting()
@@ -51,14 +52,32 @@
 
             // Explicit Casting
             double mydbl = 5.5;
-            int myint = (int)myDouble;
+            int myint = (int)mydbl;
 
             Console.WriteLine(myint); // converting double to int
 
-            Console.WriteLine(Convert.ToInt32(myDouble)); // converting double to int in another way
+            Console.WriteLine(Convert.ToInt32(mydbl)); // converting double to int in another way
         }
 
+        static void InputsFromUser()
+        {
+            // sum of 2 inputs (lvl ez)
+            //declaring vars
+            int fn, sn;
 
+            // first input
+            Console.Write("Enter the first number : ");
+            fn = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            // second input
+            Console.Write("Enter the second number : ");
+            sn = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            // Output
+            Console.WriteLine("The sum of these two numbers is : " + (fn + sn));
+        }
 
 
 
