@@ -33,8 +33,9 @@
             double dbl = 4.5;
             char chr = 'a';
             bool bol = true;
+            const int cnst = 5; // can't be changed
 
-            Console.Write(str + " " + inte + " " + dbl + " " + chr + " " + bol);
+            Console.WriteLine(str + "  " + inte + "  " + dbl + "  " + chr + "  " + bol + "  " + cnst);
         }
 
 
