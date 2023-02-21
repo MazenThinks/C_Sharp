@@ -28,18 +28,18 @@
 
         static void DataTypesAndVars()
         {
-            string str  = "Damn bro";
-            int inte = 46;
-            double dbl = 4.5;
-            char chr = 'a';
-            bool bol = true;
-            const int cnst = 5; // can't be changed
+            string str  = "Damn bro";    // 2 bytes pre char 
+            int inte = 46;               // 4 bytes
+            double dbl = 4.5;            // 8 bytes
+            char chr = 'a';              // 2 bytes
+            bool bol = true;             // 1 bit
+            const int cnst = 5;          // 4 bytes (can't be changed)
 
             Console.WriteLine(str + "  " + inte + "  " + dbl + "  " + chr + "  " + bol + "  " + cnst);
             Console.WriteLine(inte + dbl + cnst);
-
-
         }
+
+        
 
 
 
