@@ -36,7 +36,12 @@
             const int cnst = 5; // can't be changed
 
             Console.WriteLine(str + "  " + inte + "  " + dbl + "  " + chr + "  " + bol + "  " + cnst);
+            Console.WriteLine(inte + dbl + cnst);
+
+
         }
+
+
 
 
 
