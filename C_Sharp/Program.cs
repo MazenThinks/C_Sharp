@@ -9,7 +9,8 @@
             // comments(); nothing will appear
             // DataTypesAndVars();
             // TypeCasting();
-            InputsFromUser();
+            // InputsFromUser();
+            Operators();
         }
 
         static void Priting()
@@ -77,6 +78,27 @@
 
             // Output
             Console.WriteLine("The sum of these two numbers is : " + (fn + sn));
+        }
+
+        static void Operators()
+        {
+            double o1, o2;
+            // first input
+            Console.Write("Enter the first number : ");
+            o1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            // second input
+            Console.Write("Enter the second number : ");
+            o2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            Console.WriteLine("The Addition (+) of these two numbers is : " + (o1 + o2));  // Addition
+            Console.WriteLine("The Substraction (-) of these two numbers is : " + (o1 - o2));  // Substraction
+            Console.WriteLine("The Multiplication (*) of these two numbers is : " + (o1 * o2));  // Multiplication
+            Console.WriteLine("The Division(/) of these two numbers is : " + (o1 / o2));  // Division
+            Console.WriteLine("The Modulus of(%) these two numbers is : " + (o1 % o2));  // Modulus
+
         }
 
 
