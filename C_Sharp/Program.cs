@@ -10,7 +10,8 @@
             // DataTypesAndVars();
             // TypeCasting();
             // InputsFromUser();
-            Operators();
+            // Operators();
+            MathOPs();
         }
 
         static void Priting()
@@ -110,6 +111,33 @@
             // ( || ) or gate
             // ( ! ) not gate
         }
+
+        static void MathOPs()
+        {
+            // finding the highest number between two inputs
+            double m1, m2;
+
+            // first input
+            Console.Write("Enter the first number : ");
+            m1 = Convert.ToDouble(Console.ReadLine());
+
+            // second input
+            Console.Write("Enter the second number : ");
+            m2 = Convert.ToDouble(Console.ReadLine());
+
+            // output
+            Console.WriteLine("The highest number in these two numbers is : {0}", Math.Max(m1, m2)); // Max 
+
+            Console.WriteLine("The Lowest number in these two numbers is : {0}", Math.Min(m1, m2));  // Min
+
+            Console.WriteLine("The square root of the first number is : {0}", Math.Sqrt(m1));  // Square root
+
+            Console.WriteLine("The Absolute of the first number is : {0}", Math.Abs(m1));  // Absolute
+
+            Console.WriteLine("The nearest number of the first number is : {0}", Math.Round(m1));  // Square root
+        }
+
+
 
 
 
