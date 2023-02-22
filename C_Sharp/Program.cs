@@ -11,7 +11,8 @@
             // TypeCasting();
             // InputsFromUser();
             // Operators();
-            MathOPs();
+            // MathOPs();
+            Strings();
         }
 
         static void Priting()
@@ -137,7 +138,24 @@
             Console.WriteLine("The nearest number of the first number is : {0}", Math.Round(m1));  // Square root
         }
 
+        static void Strings()
+        {
+            // input
+            Console.Write(" Enter any text : ");
+            string s = Console.ReadLine();
 
+            // output
+            Console.WriteLine("The Length of this text is : {0}", s.Length); // text length
+
+            Console.WriteLine("text converted to uppercase : {0}", s.ToUpper()); // all text in uppercase
+
+            Console.WriteLine("text converted to lowercase : {0}", s.ToLower()); // all text in lower case
+
+            Console.WriteLine("text converted to Uppercase and Lowercase together : {0}", string.Concat(s.ToUpper(), s.ToLower())); // mixing lowercase and uppercase with Concat
+
+
+
+        }
 
 
 
