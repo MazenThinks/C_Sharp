@@ -153,6 +153,13 @@
 
             Console.WriteLine("text converted to Uppercase and Lowercase together : {0}", string.Concat(s.ToUpper(), s.ToLower())); // mixing lowercase and uppercase with Concat
 
+            string s2 = "SINGLE";
+            string s3 = "CODE";
+
+            string ss = $"Thats a whole text in a {s2} {s3}";
+            Console.WriteLine(ss);
+
+            Console.WriteLine("The second letter in this text is : {0}", s[1]);
 
 
         }
