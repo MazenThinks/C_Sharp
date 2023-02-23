@@ -12,7 +12,9 @@
             // InputsFromUser();
             // Operators();
             // MathOPs();
-            Strings();
+            // Strings();
+            Booleans();
+
         }
 
         static void Priting()
@@ -160,8 +162,11 @@
             Console.WriteLine(ss);
 
             Console.WriteLine("The second letter in this text is : {0}", s[1]);
+        }
 
-
+        static void Booleans()
+        {
+            Console.WriteLine(10 > 7);
         }
 
 
