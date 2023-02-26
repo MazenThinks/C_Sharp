@@ -13,7 +13,7 @@
             // Operators();
             // MathOPs();
             // Strings();
-            Booleans();
+            // Booleans();
 
         }
 
@@ -167,6 +167,11 @@
         static void Booleans()
         {
             Console.WriteLine(10 > 7);
+        }
+
+        static void IfCond()
+        {
+            // if is ez im too lazy to go for it tbh
         }
 
 
