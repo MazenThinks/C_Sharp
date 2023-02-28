@@ -17,6 +17,7 @@
             // ifCond();
             // switchCase();
             // WhileLoop();
+            ForLoop();
 
         }
 
@@ -258,6 +259,16 @@
             } 
 
             */ // Lazy Person ¯\_(ツ)_/¯
+
+            // nvm there's foreach loop '_'
+
+            string[] idk = {"Idk", "Damn", "Broo"};
+
+            // foreach loop
+            foreach(string id in idk)
+            {
+                Console.WriteLine(id);
+            }
         }
 
 
