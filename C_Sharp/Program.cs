@@ -14,6 +14,8 @@
             // MathOPs();
             // Strings();
             // Booleans();
+            // ifCond();
+            switchCase();
 
         }
 
@@ -174,6 +176,51 @@
             // if is ez im too lazy to go for it tbh
         }
 
+        static void switchCase()
+        {
+            // getting weekday by number
+
+            // declaring vars
+            int w = 1;
+
+            // input
+            Console.Write("Enter the number of the day u want : ");
+            w = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            // switch case
+            switch (w)
+            {
+                case 1:
+                    Console.WriteLine("Its Saturday!!");
+                    break;
+
+                case 2: 
+                    Console.WriteLine("Its Sunday!!");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Its Monday!!");
+                    break;
+
+                case 4:
+                    Console.WriteLine("Its Tuesday!!");
+                    break;
+
+                case 5:
+                    Console.WriteLine("Its Wednesday!!");
+                    break;
+
+                case 6:
+                    Console.WriteLine("Its Thursday!!");
+                    break;
+
+                case 7:
+                    Console.WriteLine("Its Friday!!");
+                    break;
+            }
+
+        }
 
 
 
