@@ -15,7 +15,8 @@
             // Strings();
             // Booleans();
             // ifCond();
-            switchCase();
+            // switchCase();
+            WhileLoop();
 
         }
 
@@ -219,6 +220,31 @@
                     Console.WriteLine("Its Friday!!");
                     break;
             }
+
+        }
+
+        static void WhileLoop()
+        {
+            // the factorial of given number by the user
+
+            //declaring vars
+            int wl = 0, wl2 = 0, ws = 0;
+
+            // input
+            Console.Write("U want the factorial of ");
+            wl = wl2= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
+
+            // while loop output
+            Console.Write("Well, the factorial of {0} is ", wl);
+
+
+            while (wl > 0)
+            {
+                ws += wl;
+                wl--;
+            }
+            Console.WriteLine(ws);
 
         }
 
