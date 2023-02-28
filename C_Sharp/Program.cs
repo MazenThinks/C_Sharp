@@ -16,7 +16,7 @@
             // Booleans();
             // ifCond();
             // switchCase();
-            WhileLoop();
+            // WhileLoop();
 
         }
 
@@ -248,7 +248,17 @@
 
         }
 
+        static void ForLoop()
+        {
+            /* 
+             
+             for (statement 1; statement 2; statement 3) 
+{
+                // code block to be executed
+            } 
 
+            */ // Lazy Person ¯\_(ツ)_/¯
+        }
 
 
 
