@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Basics -------------------------
 
             // Priting();
             // comments(); nothing will appear
@@ -19,7 +20,17 @@
             // WhileLoop();
             // ForLoop();
 
+            // --------------------------------
+
+            // Class
+            prog.HelloMSG();
+            prog.Waiting();
+            prog.Bye();
+
+
         }
+
+        // Basics -------------------------
 
         static void Priting()
         {
@@ -271,11 +282,54 @@
             }
         }
 
+        // --------------------------------
+
+        // OOP ----------------------------
+
+        public class prog
+        {
+            public static void HelloMSG()
+            {
+                Console.WriteLine("Welcome!");
+            }
+
+            public static void Waiting()
+            {
+                Console.WriteLine("Waiting");
+            }
+            public static void Bye()
+            {
+                Console.WriteLine("Bye! Thx for visiting ");
+            }
+        }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // --------------------------------
 
 
 
