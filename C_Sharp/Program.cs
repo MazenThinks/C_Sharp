@@ -23,9 +23,9 @@
             // --------------------------------
 
             // Class
-            prog.HelloMSG();
-            prog.Waiting();
-            prog.Bye();
+           // prog.HelloMSG();
+           // prog.Waiting();
+           // prog.Bye();
 
 
         }
@@ -106,7 +106,7 @@
             Console.Write("Enter the first number : ");
             o1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
-
+            
             // second input
             Console.Write("Enter the second number : ");
             o2 = Convert.ToInt32(Console.ReadLine());
