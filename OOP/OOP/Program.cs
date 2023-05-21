@@ -1,25 +1,21 @@
 ﻿using System;
 
-public class Factroial
+public class number
 {
     public int x;
 
-    public Factroial (int num)
+    public number (int num)
     {
         x = num;
     }
 
-    public void FacCalc()
+    public void numba()
     {
-        int result = 1;
-        int i = 1;
-        while(i <= x)
+        
+        for(int i = 1; i <= x; i++)
         {
-            result *= i;
-            i++;
+            Console.WriteLine(i);
         }
-
-        Console.WriteLine("The factorial of {0} is {1}", x, result);
         
     }
 }
@@ -30,12 +26,12 @@ class Program
     static void Main()
     {
 
-        Console.Write("Enter the number u want the factorial for: ");
+        Console.Write("Enter a number: ");
         int num = int.Parse(Console.ReadLine());
         Console.WriteLine();
 
-        Factroial factorial = new Factroial(num);
-        factorial.FacCalc();
+        number factorial = new number(num);
+        factorial.numba();
     }
 }
 
