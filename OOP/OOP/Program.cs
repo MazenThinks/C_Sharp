@@ -2,53 +2,78 @@
 
 namespace OOP;
 
-public class shape
+public class BankAccount
 {
-    public int result;
-    public double pi = 3.14;
-
-    // Square
-    public void Area(int side)
+    public string name;
+    //int accountNum;
+    public double balance = 0;
+    public double Balance
     {
-        result = side * side;
-        Console.WriteLine("The area of the sqaure is: {0}", result);
+        get;
+        set;
     }
 
-    // Rectangle
-    public void Area(int length, int width)
+    public string Name
     {
-        result = length * width;
-        Console.WriteLine("The area of the rectangle is: {0}", result);
+        get { return this.name; }
+        set { this.name = value; }
     }
 
-    // Triangle
-    public void Area(double basee, double height)
+    public double Deposit(double AddAmt)
     {
-        double result = (basee * height) / 2;
-        Console.WriteLine("The area of the triangle is: {0}", result);
+        Balance += AddAmt;
+        return balance;
     }
 
-    // Circle
-    public void Area(double radius)
+    public double WithDraw(double OutAmt)
     {
-        double result = pi * radius * radius;
-        Console.WriteLine("The area of the circle is: {0}", result);
+        Balance -= OutAmt;
+        return balance;
     }
+
 
 }
-
-
-
 
 class Program
 {
     static void Main()
     {
-        shape area = new shape();
-        area.Area(10); // Square
-        area.Area(15, 30); // Rectangle
-        area.Area(15.7); // Circle
-        area.Area(17.8, 22.4); // Triangle
+        BankAccount customer1 = new BankAccount();
+        // customer name
+        Console.Write("Enter your name: ");
+        customer1.Name = Console.ReadLine();
+        Console.WriteLine("Welcome back, {0}", customer1.Name);
+
+        // random number generator for the balance
+        Random random = new Random();
+        customer1.Balance = random.Next(500, 1000000);
+
+        // initial balance
+        Console.WriteLine("Your balance is: " + customer1.Balance);
+
+        // Deposit
+        Console.Write("Amount of Deposit: ");
+        double AddAmt = double.Parse(Console.ReadLine());
+        customer1.Deposit(AddAmt);
+        Console.WriteLine("Your new balance is: " + customer1.Balance);
+
+        // Withdraw
+        Console.Write("Amount of Withdraw: ");
+        double OutAmt = double.Parse(Console.ReadLine());
+
+        if(OutAmt <= customer1.Balance)
+        {
+            customer1.WithDraw(OutAmt);
+            Console.WriteLine("Your new balance is: " + customer1.Balance);
+        }
+        else
+        {
+            Console.WriteLine("INSUFFICENT BALANCE!");
+            Console.WriteLine("Your balance still: " + customer1.Balance);
+        }
+
+        // exit message
+        Console.WriteLine("Have a good day :)");
     }
 }
 
