@@ -12,10 +12,11 @@ public class Factroial
     public void FacCalc()
     {
         int result = 1;
-
-        for(int i = 1; i <= x; i++)
+        int i = 1;
+        while(i <= x)
         {
             result *= i;
+            i++;
         }
 
         Console.WriteLine("The factorial of {0} is {1}", x, result);
